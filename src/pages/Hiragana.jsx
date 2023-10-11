@@ -119,29 +119,29 @@ function Hiragana(props) {
             id: 11,
             name: "Dakuon",
             details: [
-                { romanji: "が", hiragana: "ga", translate: "" },
-                { romanji: "ぎ", hiragana: "gi", translate: "" },
-                { romanji: "ぐ", hiragana: "gu", translate: "" },
-                { romanji: "げ", hiragana: "ge", translate: "" },
-                { romanji: "ご", hiragana: "go", translate: "" },
+                { hiragana: "が", romanji: "ga", translate: "" },
+                { hiragana: "ぎ", romanji: "gi", translate: "" },
+                { hiragana: "ぐ", romanji: "gu", translate: "" },
+                { hiragana: "げ", romanji: "ge", translate: "" },
+                { hiragana: "ご", romanji: "go", translate: "" },
 
-                { romanji: "ざ", hiragana: "za", translate: "" },
-                { romanji: "じ", hiragana: "ji", translate: "" },
-                { romanji: "ず", hiragana: "zu", translate: "" },
-                { romanji: "ぜ", hiragana: "ze", translate: "" },
-                { romanji: "ぞ", hiragana: "zo", translate: "" },
+                { hiragana: "ざ", romanji: "za", translate: "" },
+                { hiragana: "じ", romanji: "zi", translate: "" },
+                { hiragana: "ず", romanji: "zu", translate: "" },
+                { hiragana: "ぜ", romanji: "ze", translate: "" },
+                { hiragana: "ぞ", romanji: "zo", translate: "" },
 
-                { romanji: "だ", hiragana: "da", translate: "" },
-                { romanji: "ぢ", hiragana: "ji", translate: "" },
-                { romanji: "づ", hiragana: "zu", translate: "" },
-                { romanji: "で", hiragana: "de", translate: "" },
-                { romanji: "ど", hiragana: "do", translate: "" },
+                { hiragana: "だ", romanji: "da", translate: "" },
+                { hiragana: "ぢ", romanji: "dzi", translate: "" },
+                { hiragana: "づ", romanji: "dzu", translate: "" },
+                { hiragana: "で", romanji: "de", translate: "" },
+                { hiragana: "ど", romanji: "do", translate: "" },
 
-                { romanji: "ば", hiragana: "ba", translate: "" },
-                { romanji: "び", hiragana: "bi", translate: "" },
-                { romanji: "ぶ", hiragana: "bu", translate: "" },
-                { romanji: "べ", hiragana: "be", translate: "" },
-                { romanji: "ぼ", hiragana: "bo", translate: "" },
+                { hiragana: "ば", romanji: "ba", translate: "" },
+                { hiragana: "び", romanji: "bi", translate: "" },
+                { hiragana: "ぶ", romanji: "bu", translate: "" },
+                { hiragana: "べ", romanji: "be", translate: "" },
+                { hiragana: "ぼ", romanji: "bo", translate: "" },
             ],
         },
         {
@@ -149,122 +149,162 @@ function Hiragana(props) {
             name: "Handakuon",
             details: [
 
-                { romanji: "ぱ", hiragana: "pa", translate: "" },
-                { romanji: "ぴ", hiragana: "pi", translate: "" },
-                { romanji: "ぷ", hiragana: "pu", translate: "" },
-                { romanji: "ぺ", hiragana: "pe", translate: "" },
-                { romanji: "ぽ", hiragana: "po", translate: "" },
+                { hiragana: "ぱ", romanji: "pa", translate: "" },
+                { hiragana: "ぴ", romanji: "pi", translate: "" },
+                { hiragana: "ぷ", romanji: "pu", translate: "" },
+                { hiragana: "ぺ", romanji: "pe", translate: "" },
+                { hiragana: "ぽ", romanji: "po", translate: "" },
             ],
         },
         {
             id: 13,
             name: "Yoon",
             details: [
-                { romanji: "きゃ", hiragana: "kya", translate: "" },
-                { romanji: "きゅ", hiragana: "kyu", translate: "" },
-                { romanji: "きょ", hiragana: "kyo", translate: "" },
+                { hiragana: "きゃ", romanji: "kya", translate: "" },
+                { hiragana: "きゅ", romanji: "kyu", translate: "" },
+                { hiragana: "きょ", romanji: "kyo", translate: "" },
 
-                { romanji: "しゃ", hiragana: "sha", translate: "" },
-                { romanji: "しゅ", hiragana: "shu", translate: "" },
-                { romanji: "しょ", hiragana: "sho", translate: "" },
+                { hiragana: "しゃ", romanji: "sha", translate: "" },
+                { hiragana: "しゅ", romanji: "shu", translate: "" },
+                { hiragana: "しょ", romanji: "sho", translate: "" },
 
-                { romanji: "ちゃ", hiragana: "cha", translate: "" },
-                { romanji: "ちゅ", hiragana: "chu", translate: "" },
-                { romanji: "ちょ", hiragana: "cho", translate: "" },
+                { hiragana: "ちゃ", romanji: "cha", translate: "" },
+                { hiragana: "ちゅ", romanji: "chu", translate: "" },
+                { hiragana: "ちょ", romanji: "cho", translate: "" },
 
-                { romanji: "にゃ", hiragana: "nya", translate: "" },
-                { romanji: "にゅ", hiragana: "nyu", translate: "" },
-                { romanji: "にょ", hiragana: "nyo", translate: "" },
+                { hiragana: "にゃ", romanji: "nya", translate: "" },
+                { hiragana: "にゅ", romanji: "nyu", translate: "" },
+                { hiragana: "にょ", romanji: "nyo", translate: "" },
 
-                { romanji: "ひゃ", hiragana: "hya", translate: "" },
-                { romanji: "ひゅ", hiragana: "hyu", translate: "" },
-                { romanji: "ひょ", hiragana: "hyo", translate: "" },
+                { hiragana: "ひゃ", romanji: "hya", translate: "" },
+                { hiragana: "ひゅ", romanji: "hyu", translate: "" },
+                { hiragana: "ひょ", romanji: "hyo", translate: "" },
 
-                { romanji: "みゃ", hiragana: "mya", translate: "" },
-                { romanji: "みゅ", hiragana: "myu", translate: "" },
-                { romanji: "みょ", hiragana: "myo", translate: "" },
+                { hiragana: "みゃ", romanji: "mya", translate: "" },
+                { hiragana: "みゅ", romanji: "myu", translate: "" },
+                { hiragana: "みょ", romanji: "myo", translate: "" },
 
-                { romanji: "りゃ", hiragana: "rya", translate: "" },
-                { romanji: "りゅ", hiragana: "ryu", translate: "" },
-                { romanji: "りょ", hiragana: "ryo", translate: "" },
+                { hiragana: "りゃ", romanji: "rya", translate: "" },
+                { hiragana: "りゅ", romanji: "ryu", translate: "" },
+                { hiragana: "りょ", romanji: "ryo", translate: "" },
 
-                { romanji: "ぎゃ", hiragana: "gya", translate: "" },
-                { romanji: "ぎゅ", hiragana: "gyu", translate: "" },
-                { romanji: "ぎょ", hiragana: "gyo", translate: "" },
+                { hiragana: "ぎゃ", romanji: "gya", translate: "" },
+                { hiragana: "ぎゅ", romanji: "gyu", translate: "" },
+                { hiragana: "ぎょ", romanji: "gyo", translate: "" },
 
-                { romanji: "じゃ", hiragana: "ja", translate: "" },
-                { romanji: "じゅ", hiragana: "ju", translate: "" },
-                { romanji: "じょ", hiragana: "jo", translate: "" },
+                { hiragana: "じゃ", romanji: "ja", translate: "" },
+                { hiragana: "じゅ", romanji: "ju", translate: "" },
+                { hiragana: "じょ", romanji: "jo", translate: "" },
 
-                { romanji: "びゃ", hiragana: "bya", translate: "" },
-                { romanji: "びゅ", hiragana: "byu", translate: "" },
-                { romanji: "びょ", hiragana: "byo", translate: "" },
+                { hiragana: "びゃ", romanji: "bya", translate: "" },
+                { hiragana: "びゅ", romanji: "byu", translate: "" },
+                { hiragana: "びょ", romanji: "byo", translate: "" },
 
-                { romanji: "ぴゃ", hiragana: "pya", translate: "" },
-                { romanji: "ぴゅ", hiragana: "pyu", translate: "" },
-                { romanji: "ぴょ", hiragana: "pyo", translate: "" },
+                { hiragana: "ぴゃ", romanji: "pya", translate: "" },
+                { hiragana: "ぴゅ", romanji: "pyu", translate: "" },
+                { hiragana: "ぴょ", romanji: "pyo", translate: "" },
             ],
         },
     ]
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    // const hiraganaTest = (hiragana) => {
-    //     navigate("/hiraganaTest", { state: hiragana });
-    // };
+    const hiraganaTest = (charset) => {
+        navigate("/learn-nihon/test", { state: charset });
+    };
 
     return (
         <>
-            <div className=" max-h-screen">
-                <h6 className="flex justify-center pt-20 pb-14 text-4xl">
+            <div className=" max-h-screen min-h-screen overflow-scroll">
+                <h6 className="flex justify-center text-3xl">
                     Hiragana Table
                 </h6>
-                <div className="flex justify-center items-start max-h-[25rem] overflow-scroll">
-                    {/* Hiragana */}
-                    <div className="flex-1 max-w-5xl p-16 pt-0">
-                        {hiraganas.map((hiragana) => {
-                            return (
-                                <div className="text-sm pb-5" key={hiragana.id}>
-                                    <h6 className="text-center pb-3">{hiragana.name}</h6>
-                                    <div className="flex flex-row justify-center items-center pb-5">
-                                        <div className="flex flex-row flex-wrap gap-3 w-fit justify-center">
-                                            {hiragana.details.map((character) => (
-                                                <div
-                                                    className="p-5 bg-white dark:bg-slate-700 border-1-8 border-transparent rounded-md shadow-md space-y-2 flex flex-col items-center"
-                                                    key={character.romanji}
-                                                >
-                                                    <h6 className="text-3xl font-semibold">
-                                                        {character.hiragana}
-                                                    </h6>
-                                                    <p className="text-xs uppercase">
-                                                        {character.romanji}
-                                                    </p>
+                <div className="flex flex-col justify-around max-h-screen pt-10 lg:flex-row ">
+                    <div className="mb-10" id="gojuon">
+                        <h6 className="">Gojūon ( 五十音 )</h6>
+                        <div className="flex justify-center items-start max-h-[25rem] overflow-scroll border-b-2 border-t-2">
+                            <div className="flex-1 max-w-5xl p-8 pt-10">
+                                {hiraganas.map((charset) => {
+                                    return (
+                                        <div className="text-sm pb-5" key={charset.id}>
+                                            <h6 className="text-sm text-center mb-5 lg:text-2xl">{charset.name}</h6>
+                                            <div className="flex flex-row justify-center items-center mb-5">
+                                                <div className="flex flex-row flex-wrap gap-3 w-fit justify-center">
+                                                    {charset.details.map((character) => (
+                                                        <div
+                                                            className="p-5 bg-slate-300 dark:bg-slate-700 border-1 border-transparent rounded-md shadow-md space-y-2 flex flex-col items-center"
+                                                            key={character.romanji}
+                                                        >
+                                                            <h6 className="text-lg sm:text-lg lg:text-3xl font-semibold">
+                                                                {character.hiragana}
+                                                            </h6>
+                                                            <h6 className="text-xs sm:text-xs uppercase">
+                                                                {character.romanji}
+                                                            </h6>
+                                                        </div>
+                                                    ))}
+                                                    <button
+                                                        onClick={() => {
+                                                            hiraganaTest(charset);
+                                                        }}
+                                                        className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group h-24 w-14">
+                                                        <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
+                                                        <span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                                                            <span className="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
+                                                            <span className="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
+                                                        </span>
+                                                        <span className="relative text-white">Test</span>
+                                                    </button>
                                                 </div>
-                                            ))}
-                                            <button
-                                                // onClick={() => {
-                                                //     hiraganaTest(hiragana);
-                                                // }} 
-                                                className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
-                                                <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
-                                                <span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
-                                                    <span className="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
-                                                    <span className="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
-                                                </span>
-                                                <span className="relative text-white">Test</span>
-                                            </button>
+                                            </div>
                                         </div>
-                                        {/* <a className="p-5 pl-10"
-                      onClick={() => {
-                        hiraganaTest(hiragana);
-                      }}
-                    >
-                      <button>Test</button>
-                    </a> */}
-                                    </div>
-                                </div>
-                            );
-                        })}
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="" id="dakuonHandakuonYoon">
+                        <h6>Dakuon ( 濁音 ), Handakuon ( 半濁音 ) & Yōon ( 拗音 )</h6>
+                        <div className="flex justify-center items-start max-h-[25rem] overflow-scroll border-b-2 border-t-2">
+                            <div className="flex-1 max-w-5xl p-8 pt-10">
+                                {dakuonHandakuonYoon.map((charset) => {
+                                    return (
+                                        <div className="text-sm pb-5" key={charset.id}>
+                                            <h6 className="text-sm text-center mb-5 lg:text-2xl">{charset.name}</h6>
+                                            <div className="flex flex-row justify-center items-center mb-5">
+                                                <div className="flex flex-row flex-wrap gap-3 w-fit justify-center">
+                                                    {charset.details.map((character) => (
+                                                        <div
+                                                            className="p-5 bg-slate-300 dark:bg-slate-700 border-1 border-transparent rounded-md shadow-md space-y-2 flex flex-col items-center"
+                                                            key={character.romanji}
+                                                        >
+                                                            <h6 className="text-lg sm:text-lg lg:text-3xl font-semibold">
+                                                                {character.hiragana}
+                                                            </h6>
+                                                            <h6 className="text-xs sm:text-xs uppercase">
+                                                                {character.romanji}
+                                                            </h6>
+                                                        </div>
+                                                    ))}
+                                                    <button
+                                                        onClick={() => {
+                                                            hiraganaTest(charset);
+                                                        }}
+                                                        className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-full shadow-2xl group h-24 w-14">
+                                                        <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
+                                                        <span className="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                                                            <span className="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
+                                                            <span className="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
+                                                        </span>
+                                                        <span className="relative text-white">Test</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
